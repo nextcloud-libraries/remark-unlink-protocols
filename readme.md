@@ -4,16 +4,16 @@
 
 ## Contents
 
-*   [What is this?](#what-is-this)
-*   [When should I use this?](#when-should-i-use-this)
-*   [Install](#install)
-*   [Use](#use)
-*   [API](#api)
-*   [Types](#types)
-*   [Compatibility](#compatibility)
-*   [Security](#security)
-*   [Contribute](#contribute)
-*   [License](#license)
+* [What is this?](#what-is-this)
+* [When should I use this?](#when-should-i-use-this)
+* [Install](#install)
+* [Use](#use)
+* [API](#api)
+* [Types](#types)
+* [Compatibility](#compatibility)
+* [Security](#security)
+* [Contribute](#contribute)
+* [License](#license)
 
 ## What is this?
 
@@ -132,17 +132,17 @@ you agree to abide by its terms.
 
 [MIT][license] © 2025 Nextcloud GmbH and Nextcloud contributors
 
-[npm]: https://docs.npmjs.com/cli/install
+[coc]: https://github.com/remarkjs/.github/blob/main/code-of-conduct.md
 
 [esm]: https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c
 
-[coc]: https://github.com/remarkjs/.github/blob/main/code-of-conduct.md
-
-[nc-coc]: https://nextcloud.com/contribute/code-of-conduct/
+[hast]: https://github.com/syntax-tree/hast
 
 [license]: license
 
-[hast]: https://github.com/syntax-tree/hast
+[nc-coc]: https://nextcloud.com/contribute/code-of-conduct/
+
+[npm]: https://docs.npmjs.com/cli/install
 
 [rehype]: https://github.com/rehypejs/rehype
 
