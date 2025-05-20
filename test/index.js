@@ -35,9 +35,9 @@ test('fixtures', async function (t) {
       /** @type {string} */
       let output
 
-      const proc = remark().use(remarkUnlink)
+      const process_ = remark().use(remarkUnlink)
 
-      const actual = String(await proc.process(input))
+      const actual = String(await process_.process(input))
 
       try {
         if ('UPDATE' in process.env) {
