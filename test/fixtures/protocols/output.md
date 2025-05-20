@@ -24,3 +24,5 @@ More content.
 ## other protocols
 
 Section content may include some links.
+
+## empty other protocol

@@ -25,4 +25,8 @@ More content.
 
 Section [content][3] may include some [links](test://domain.name/path).
 
+## empty other protocol
+
+[](other://test.me)
+
 [3]: other://domain.name/path
