@@ -3,9 +3,9 @@ import fs from 'node:fs/promises'
 import process from 'node:process'
 import test from 'node:test'
 import {remark} from 'remark'
-import remarkUnlink from 'remark-unlink-protocols'
+import remarkUnlinkProtocols from 'remark-unlink-protocols'
 
-test('remarkUnlink', async function (t) {
+test('remarkUnlinkProtocols', async function (t) {
   await t.test('should expose the public api', async function () {
     assert.deepEqual(
       Object.keys(await import('remark-unlink-protocols')).sort(),
@@ -31,11 +31,13 @@ test('fixtures', async function (t) {
       const outputUrl = new URL('output.md', folderUrl)
 
       const input = String(await fs.readFile(inputUrl))
+      /** @type {{ except: string[] } | undefined} */
+      const options = await readOptions(new URL('options.json', folderUrl))
 
       /** @type {string} */
       let output
 
-      const process_ = remark().use(remarkUnlink)
+      const process_ = remark().use(remarkUnlinkProtocols, options)
 
       const actual = String(await process_.process(input))
 
@@ -54,3 +56,18 @@ test('fixtures', async function (t) {
     })
   }
 })
+
+/**
+ * @param {import("fs").PathLike | fs.FileHandle} optionsUrl
+ * @returns {Promise<{except: string[]} | undefined>}
+ */
+async function readOptions(optionsUrl) {
+  /** @type { Buffer } */
+  let data
+  try {
+    data = await fs.readFile(optionsUrl)
+  } catch {
+    return undefined
+  }
+  return JSON.parse(String(data))
+}
