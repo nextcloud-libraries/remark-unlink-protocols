@@ -1,4 +1,9 @@
 /**
+ * SPDX-FileCopyrightText: 2025 Nextcloud GmbH and Nextcloud contributors
+ * SPDX-License-Identifier: MIT
+ */
+
+/**
  * Only keep links with the given protocols.
  *
  * @returns

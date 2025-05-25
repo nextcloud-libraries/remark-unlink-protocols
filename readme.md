@@ -1,4 +1,11 @@
+<!--
+  - SPDX-FileCopyrightText: 2025 Nextcloud GmbH and Nextcloud contributors
+  - SPDX-License-Identifier: MIT
+-->
+
 # remark-unlink-protocols
+
+[![REUSE status](https://api.reuse.software/badge/github.com/nextcloud-libraries/remark-unlink-protocol)](https://api.reuse.software/info/github.com/nextcloud-libraries/remark-unlink-protocol)
 
 **[remark][]** plugin to turn links into plain text based on their protocols.
 
@@ -138,7 +145,7 @@ you agree to abide by its terms.
 
 [hast]: https://github.com/syntax-tree/hast
 
-[license]: license
+[license]: LICENSE
 
 [nc-coc]: https://nextcloud.com/contribute/code-of-conduct/
 
