@@ -1,0 +1,30 @@
+# SPDX-FileCopyrightText: 2025 Nextcloud GmbH and Nextcloud contributors
+# SPDX-License-Identifier: MIT
+version = 1
+SPDX-PackageName = "remark unlink protocols"
+SPDX-PackageSupplier = "Nextcloud GmbH <https://nextcloud.com/impressum/>"
+SPDX-PackageDownloadLocation = "https://github.com/nextcloud-libraries/remark-unlink-protocols"
+
+[[annotations]]
+path = [".gitignore", ".prettierignore", ".remarkignore"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Nextcloud GmbH and Nextcloud contributors"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = ["package.json", "package-lock.json"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Nextcloud GmbH and Nextcloud contributors"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = ["tsconfig.json", "tsconfig.tsbuildinfo"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Nextcloud GmbH and Nextcloud contributors"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = ["test/fixtures/**.md"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Nextcloud GmbH and Nextcloud contributors"
+SPDX-License-Identifier = "MIT"

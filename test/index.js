@@ -1,3 +1,8 @@
+/**
+ * SPDX-FileCopyrightText: 2025 Nextcloud GmbH and Nextcloud contributors
+ * SPDX-License-Identifier: MIT
+ */
+
 import assert from 'node:assert/strict'
 import fs from 'node:fs/promises'
 import process from 'node:process'
