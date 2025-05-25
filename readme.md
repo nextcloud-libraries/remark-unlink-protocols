@@ -1,5 +1,7 @@
 # remark-unlink-protocols
 
+[![REUSE status](https://api.reuse.software/badge/github.com/nextcloud-libraries/remark-unlink-protocol)](https://api.reuse.software/info/github.com/nextcloud-libraries/remark-unlink-protocol)
+
 **[remark][]** plugin to turn links into plain text based on their protocols.
 
 ## Contents
