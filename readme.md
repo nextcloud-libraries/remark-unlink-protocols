@@ -138,7 +138,7 @@ you agree to abide by its terms.
 
 [hast]: https://github.com/syntax-tree/hast
 
-[license]: license
+[license]: LICENSES/MIT.txt
 
 [nc-coc]: https://nextcloud.com/contribute/code-of-conduct/
 
