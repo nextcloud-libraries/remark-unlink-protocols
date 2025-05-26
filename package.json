@@ -19,7 +19,10 @@
     "text",
     "unified"
   ],
-  "repository": "nextcloud-libraries/remark-unlink-protocols",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nextcloud-libraries/remark-unlink-protocols.git"
+  },
   "bugs": "https://github.com/nextcloud-libraries/remark-unlink-protocols/issues",
   "author": "Max <max@nextcloud.com>",
   "contributors": [],
