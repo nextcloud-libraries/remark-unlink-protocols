@@ -69,7 +69,7 @@ import remarkUnlinkProtocols from 'remark-unlink-protocols'
 import {read} from 'to-vfile'
 
 const file = await remark()
-  .use(remarkUnlinkProtocols({ except: 'mailto' })
+  .use(remarkUnlinkProtocols, { except: 'mailto' })
   .process(await read('example.md'))
 
 console.log(String(file))
@@ -101,7 +101,7 @@ The default export is `remarkUnlinkProtocols`.
 
 #### `unified().use(remarkUnlinkProtocols)`
 
-Remove all links, images, references, and definitions.
+Remove all links and references that do not use the `http` or `https` protocols.
 
 ###### Parameters
 
@@ -118,7 +118,7 @@ It exports no additional types.
 
 ## Compatibility
 
-The current release, `remark-unlink@^1` is compatible with Node.js 16.
+The current release, `remark-unlink-protocols@^1` is compatible with Node.js 22.
 
 This plugin works with `unified` version 3+ and `remark` version 4+.
 
