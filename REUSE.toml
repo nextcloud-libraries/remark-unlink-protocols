@@ -24,7 +24,7 @@ SPDX-FileCopyrightText = "Nextcloud GmbH and Nextcloud contributors"
 SPDX-License-Identifier = "MIT"
 
 [[annotations]]
-path = ["test/fixtures/**.md"]
+path = ["test/fixtures/**.md", "test/fixtures/**.json"]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "Nextcloud GmbH and Nextcloud contributors"
 SPDX-License-Identifier = "MIT"
